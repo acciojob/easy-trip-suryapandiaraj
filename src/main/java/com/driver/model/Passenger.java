@@ -9,8 +9,6 @@ public class Passenger {
     private String name;
 
     private int age;
-    private Ticket ticket;
-    private int ticketCount;
 
     public Passenger() {
 
@@ -53,21 +51,5 @@ public class Passenger {
 
     public void setAge(int age) {
         this.age = age;
-    }
-
-    public Ticket getTicket() {
-        return ticket;
-    }
-
-    public void setTicket(Ticket ticket) {
-        this.ticket = ticket;
-    }
-
-    public int getTicketCount() {
-        return ticketCount;
-    }
-
-    public void setTicketCount(int ticketCount) {
-        this.ticketCount = ticketCount;
     }
 }
