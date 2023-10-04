@@ -15,6 +15,7 @@ public class Flight {
     private Date flightDate;
 
     private double duration;
+    private Ticket ticket;
 
     public Flight() {
 
@@ -77,4 +78,11 @@ public class Flight {
         this.duration = duration;
     }
 
+    public Ticket getTicket() {
+        return ticket;
+    }
+
+    public void setTicket(Ticket ticket) {
+        this.ticket = ticket;
+    }
 }
